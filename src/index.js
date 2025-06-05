@@ -5,7 +5,7 @@ const catInfoEl = document.querySelector('.cat-info');
 const loaderEl = document.querySelector('.loader');
 const errorEl = document.querySelector('.error');
 
-//choosing breed
+//choosing breed test
 function chooseBreed() {
   loaderEl.classList.remove('is-hidden');
   fetchBreeds()
